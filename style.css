@@ -1,0 +1,72 @@
+@import url(https://fonts.googleapis.com/css2?family=Josefin + Sans:wght@300;600&display=swap" rel="stylesheet);
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #212220;
+  margin: 0px;
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: no-wrap;
+}
+
+nav {
+  background-color: #212220;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 1.5em;
+  border-radius: 0px;
+  box-shadow: 0px 0px 0px black;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 500;
+  font-size: 25px;
+  color: #ffffff;
+  text-align: left;
+  padding-top: 25px;
+  padding: 20px;
+}
+
+.icons {
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 25px;
+  width: 300px;
+  border: 0px solid white;
+}
+
+
+svg:hover {
+  transform: scale(1.25);
+  transition-duration: 400ms;
+  transition-delay: 5ms;
+  transition-timing-function: ease;
+}
+
+footer {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 100;
+  font-size: 15px;
+  color: #ffffff;
+  text-align: right;
+  align-self: flex-end;
+}
+
+.images{
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
